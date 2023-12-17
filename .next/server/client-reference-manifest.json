@@ -1,0 +1,621 @@
+{
+  "__ssr_module_mapping__": {
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/Container.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/Container.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/Container.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/Container.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/Logo.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/Logo.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/Logo.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/Logo.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/UserMenu.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/UserMenu.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/UserMenu.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/UserMenu.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/modals/LoginModal.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/modals/LoginModal.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/modals/LoginModal.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/modals/LoginModal.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/questions/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/questions/page.tsx",
+        "chunks": [
+          "app/questions/page:app/questions/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/questions/page.tsx",
+        "chunks": [
+          "app/questions/page:app/questions/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/questions/page.tsx",
+        "chunks": [
+          "app/questions/page:app/questions/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/Loader.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/Loader.tsx",
+        "chunks": [
+          "app/loading:app/loading"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/Loader.tsx",
+        "chunks": [
+          "app/loading:app/loading"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/Loader.tsx",
+        "chunks": [
+          "app/loading:app/loading"
+        ],
+        "name": "default",
+        "async": false
+      }
+    }
+  },
+  "__edge_ssr_module_mapping__": {},
+  "__entry_css_files__": {
+    "/Users/vagishg/Documents/esade-users-app/app/layout": [
+      "static/css/_app-client_app_globals_css.css",
+      "static/css/_app-client_node_modules_next_font_google_target_css_path_app_layout_tsx_import_Nunito_argume-73caea.css"
+    ]
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/client/components/app-router.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/esm/client/components/app-router.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/client/components/app-router.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/esm/client/components/app-router.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/client/components/app-router.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/esm/client/components/app-router.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/client/components/error-boundary.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/client/components/error-boundary.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/esm/client/components/error-boundary.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/client/components/error-boundary.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/esm/client/components/error-boundary.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/client/components/layout-router.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/client/components/layout-router.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/esm/client/components/layout-router.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/client/components/layout-router.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/esm/client/components/layout-router.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/client/components/render-from-template-context.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/esm/client/components/render-from-template-context.js#": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/client/components/render-from-template-context.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/dist/esm/client/components/render-from-template-context.js#default": {
+    "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+    "chunks": [
+      "app-client-internals:app-client-internals"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/components/Container.tsx": {
+    "id": "(app-client)/./app/components/Container.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/components/Container.tsx#": {
+    "id": "(app-client)/./app/components/Container.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/components/Container.tsx#default": {
+    "id": "(app-client)/./app/components/Container.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/components/Logo.tsx": {
+    "id": "(app-client)/./app/components/Logo.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/components/Logo.tsx#": {
+    "id": "(app-client)/./app/components/Logo.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/components/Logo.tsx#default": {
+    "id": "(app-client)/./app/components/Logo.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/components/UserMenu.tsx": {
+    "id": "(app-client)/./app/components/UserMenu.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/components/UserMenu.tsx#": {
+    "id": "(app-client)/./app/components/UserMenu.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/components/UserMenu.tsx#default": {
+    "id": "(app-client)/./app/components/UserMenu.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/components/modals/LoginModal.tsx": {
+    "id": "(app-client)/./app/components/modals/LoginModal.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/components/modals/LoginModal.tsx#": {
+    "id": "(app-client)/./app/components/modals/LoginModal.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/components/modals/LoginModal.tsx#default": {
+    "id": "(app-client)/./app/components/modals/LoginModal.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/questions/page.tsx": {
+    "id": "(app-client)/./app/questions/page.tsx",
+    "chunks": [
+      "app/questions/page:app/questions/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/questions/page.tsx#": {
+    "id": "(app-client)/./app/questions/page.tsx",
+    "chunks": [
+      "app/questions/page:app/questions/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/questions/page.tsx#default": {
+    "id": "(app-client)/./app/questions/page.tsx",
+    "chunks": [
+      "app/questions/page:app/questions/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/components/Loader.tsx": {
+    "id": "(app-client)/./app/components/Loader.tsx",
+    "chunks": [
+      "app/loading:app/loading"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/components/Loader.tsx#": {
+    "id": "(app-client)/./app/components/Loader.tsx",
+    "chunks": [
+      "app/loading:app/loading"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/components/Loader.tsx#default": {
+    "id": "(app-client)/./app/components/Loader.tsx",
+    "chunks": [
+      "app/loading:app/loading"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Nunito\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"font\"}#": {
+    "id": "null",
+    "name": "",
+    "chunks": [
+      "static/css/_app-client_node_modules_next_font_google_target_css_path_app_layout_tsx_import_Nunito_argume-73caea.css"
+    ]
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/globals.css#": {
+    "id": "null",
+    "name": "",
+    "chunks": [
+      "static/css/_app-client_app_globals_css.css"
+    ]
+  }
+}
