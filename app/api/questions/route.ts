@@ -41,7 +41,7 @@ export async function GET(
     prisma.$connect();
   
     const user = await prisma.questions.findMany();
-    const userQuestion = user.find((ques) => ques.userEmail ===   currentUser.user?.email);
+    const userQuestion = user.find((ques) => ques.userEmail ===   currentUser.user?.email) || {};
   
     console.log(userQuestion, "dasd")
     return NextResponse.json(userQuestion);
