@@ -86,7 +86,7 @@ function App() {
                 method: 'GET',
             });
             const data = await response.json();
-            setScore(data?.score)
+            // setScore(data?.score)
             if (data.score) {
                 setshowQues(false)
 
