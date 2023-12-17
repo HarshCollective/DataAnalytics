@@ -24,7 +24,6 @@ export default async function getCurrentUser() {
     //   }
     // });
 
-    console.log(currentUser, "+++++++++++++++++++++++++")
 
 
     // if (!currentUser) {
