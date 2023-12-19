@@ -16,7 +16,9 @@ export async function POST(
   if (!currentUser) {
     return NextResponse.error();
   }
-  const {score} = await request.json();
+  const data = await request.json();
+  const score = data.score;
+  console.log(data)
   console.log(score , "--------------------------------    ")
   prisma.$connect();
 
@@ -39,10 +41,12 @@ export async function GET(
       return NextResponse.error();
     }
     prisma.$connect();
+    // await prisma.questions.deleteMany();
+    const questions = await prisma.questions.findMany();
+    console.log(questions)
+    const userQuestion = questions.find((ques) => ques.userEmail ===   currentUser.user?.email) || {};
+
+    console.log(userQuestion, "--------------------------------");
   
-    const user = await prisma.questions.findMany();
-    const userQuestion = user.find((ques) => ques.userEmail ===   currentUser.user?.email) || {};
-  
-    console.log(userQuestion, "dasd")
     return NextResponse.json(userQuestion);
   }

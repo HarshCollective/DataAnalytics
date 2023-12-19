@@ -74,7 +74,6 @@ function App() {
                     body: JSON.stringify({ score }),
                 });
                 const data = await response.json();
-                console.log(data);
 
             })();
         }
@@ -86,12 +85,13 @@ function App() {
                 method: 'GET',
             });
             const data = await response.json();
-            // setScore(data?.score)
-            if (data.score) {
-                setshowQues(false)
+            debugger
+            if (data.score !== undefined) {
+                setshowQues(false);
+                setScore(data?.score);
 
             } else {
-                setshowQues(true)
+                setshowQues(true);
             }
         })();
     }, [])
