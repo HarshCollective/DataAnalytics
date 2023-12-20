@@ -15,11 +15,11 @@ const LoginModal = () => {
     <div className="flex flex-col gap-4 mt-3">
       <h3 className='font-bold text-center'>Login with Google</h3>
       <hr />
-      <Button 
-        outline 
+      <Button
+        outline
         label="Login with Google"
         icon={FcGoogle}
-        onClick={() => signIn('google')}
+        onClick={(e) => { e.preventDefault(); signIn('google') }}
       />
     </div>
   )
@@ -30,7 +30,7 @@ const LoginModal = () => {
       title="Login"
       onClose={loginModal.onClose}
       footer={footerContent}
-      onSubmit={() => {}}
+      onSubmit={() => { }}
     />
   );
 }
