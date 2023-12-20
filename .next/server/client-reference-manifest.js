@@ -104,6 +104,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./app/components/Loader.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/Loader.tsx",
+        "chunks": [
+          "app/loading:app/loading"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/Loader.tsx",
+        "chunks": [
+          "app/loading:app/loading"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/Loader.tsx",
+        "chunks": [
+          "app/loading:app/loading"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
     "(app-client)/./app/components/Container.tsx": {
       "*": {
         "id": "(sc_client)/./app/components/Container.tsx",
@@ -229,32 +255,6 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./app/questions/page.tsx",
         "chunks": [
           "app/questions/page:app/questions/page"
-        ],
-        "name": "default",
-        "async": false
-      }
-    },
-    "(app-client)/./app/components/Loader.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/components/Loader.tsx",
-        "chunks": [
-          "app/loading:app/loading"
-        ],
-        "name": "*",
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/components/Loader.tsx",
-        "chunks": [
-          "app/loading:app/loading"
-        ],
-        "name": "",
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/components/Loader.tsx",
-        "chunks": [
-          "app/loading:app/loading"
         ],
         "name": "default",
         "async": false
@@ -460,6 +460,30 @@ self.__RSC_MANIFEST={
     "name": "default",
     "async": false
   },
+  "/Users/vagishg/Documents/esade-users-app/app/components/Loader.tsx": {
+    "id": "(app-client)/./app/components/Loader.tsx",
+    "chunks": [
+      "app/loading:app/loading"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/components/Loader.tsx#": {
+    "id": "(app-client)/./app/components/Loader.tsx",
+    "chunks": [
+      "app/loading:app/loading"
+    ],
+    "name": "",
+    "async": false
+  },
+  "/Users/vagishg/Documents/esade-users-app/app/components/Loader.tsx#default": {
+    "id": "(app-client)/./app/components/Loader.tsx",
+    "chunks": [
+      "app/loading:app/loading"
+    ],
+    "name": "default",
+    "async": false
+  },
   "/Users/vagishg/Documents/esade-users-app/app/components/Container.tsx": {
     "id": "(app-client)/./app/components/Container.tsx",
     "chunks": [
@@ -576,30 +600,6 @@ self.__RSC_MANIFEST={
     "id": "(app-client)/./app/questions/page.tsx",
     "chunks": [
       "app/questions/page:app/questions/page"
-    ],
-    "name": "default",
-    "async": false
-  },
-  "/Users/vagishg/Documents/esade-users-app/app/components/Loader.tsx": {
-    "id": "(app-client)/./app/components/Loader.tsx",
-    "chunks": [
-      "app/loading:app/loading"
-    ],
-    "name": "*",
-    "async": false
-  },
-  "/Users/vagishg/Documents/esade-users-app/app/components/Loader.tsx#": {
-    "id": "(app-client)/./app/components/Loader.tsx",
-    "chunks": [
-      "app/loading:app/loading"
-    ],
-    "name": "",
-    "async": false
-  },
-  "/Users/vagishg/Documents/esade-users-app/app/components/Loader.tsx#default": {
-    "id": "(app-client)/./app/components/Loader.tsx",
-    "chunks": [
-      "app/loading:app/loading"
     ],
     "name": "default",
     "async": false
