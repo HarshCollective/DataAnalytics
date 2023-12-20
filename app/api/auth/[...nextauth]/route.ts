@@ -6,7 +6,7 @@ import { MongoDBAdapter } from "@auth/mongodb-adapter"
 
 import client from "@/app/libs/client"
 
-export const authOptions: AuthOptions = {
+const handler = NextAuth({
   adapter: MongoDBAdapter(client),
   providers: [
     GoogleProvider({
@@ -27,6 +27,8 @@ export const authOptions: AuthOptions = {
     }
 },
   secret: process.env.NEXTAUTH_SECRET,
-}
+})
 
-export default NextAuth(authOptions);
+export default handler;
+
+export { handler as GET, handler as POST }
